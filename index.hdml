@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumanshu</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0a0a0a;
+      color: #00ff66;
+      font-family: 'Courier New', monospace;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 80px 20px 50px;
+      border-bottom: 1px solid #00ff66;
+    }
+    header h1 { font-size: 2.4rem; text-shadow: 0 0 10px #00ff66; }
+    header p { margin-top: 12px; color: #9dffc4; font-size: 1.1rem; }
+    .cursor { animation: blink 1s infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    section { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+    section p { margin-bottom: 12px; }
+    h2 { margin-bottom: 14px; color: #00ff66; }
+    h2::before { content: "> "; }
+    .card {
+      border: 1px solid #00ff66;
+      padding: 16px;
+      margin-bottom: 14px;
+      border-radius: 6px;
+      background: #101810;
+    }
+    .skills span {
+      display: inline-block;
+      border: 1px solid #00ff66;
+      padding: 4px 12px;
+      margin: 4px;
+      border-radius: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid #00ff66;
+      color: #9dffc4;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Lumanshu<span class="cursor">_</span></h1>
+    <p>Class 11 Student | Founder | Coder | Cyber Security Learner</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Hello! I am Lumanshu, a 16-year-old Class 11 student. I love coding and cyber security, and I try to learn something new every day.</p>
+    <p>I became a founder at the age of 14 and built my own brand. I have started two startups so far.</p>
+  </section>
+
+  <section>
+    <h2>My Skills</h2>
+    <div class="skills">
+      <span>Coding</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Entrepreneurship</span>
+      <span>Cyber Security</span>
+      <span>Ethical Hacking (learning)</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>My Projects</h2>
+    <div class="card">
+      <h3>Two Startups</h3>
+      <p>I founded my first company at 14 and have built two startups, including my own brand.</p>
+    </div>
+    <div class="card">
+      <h3>Jarvis Assistant</h3>
+      <p>My own AI assistant, which I am working on.</p>
+    </div>
+    <div class="card">
+      <h3>This Website</h3>
+      <p>My first personal website, built with the help of Claude.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>You can add your email or social media links here later.</p>
+  </section>
+
+  <footer>
+    &copy; 2026 Lumanshu
+  </footer>
+
+</body>
+</html>
